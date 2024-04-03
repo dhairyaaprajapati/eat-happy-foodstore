@@ -9,7 +9,7 @@ const Testimonial = () => {
         <p className="primary-subheading">Testimonial</p>
         <h1 className="primary-heading">What They Are Saying</h1>
         <p className="primary-text">
-          "Foodies Paradise: Where cravings meet convenience, and flavor is
+          "Eat Happy Food: Where cravings meet convenience, and flavor is
           delivered to your doorstep. Indulge in a culinary journey that ignites
           your taste buds and satisfies your soul. Bon appétit!"
         </p>
@@ -17,7 +17,7 @@ const Testimonial = () => {
       <div className="testimonial-section-bottom">
         <img src={ProfilePic} alt="" />
         <p>
-          Foodies Paradise is an absolute delight! Their wide selection, prompt
+          Eat Happy Food is an absolute delight! Their wide selection, prompt
           delivery, and mouthwatering flavors make every meal a heavenly
           experience.
         </p>
@@ -28,7 +28,7 @@ const Testimonial = () => {
           <AiFillStar />
           <AiFillStar />
         </div>
-        <h2>John Doe</h2>
+        <h2>John mark</h2>
       </div>
     </div>
   );

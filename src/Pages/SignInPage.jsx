@@ -64,7 +64,7 @@ const SignIn = () => {
       <ToastContainer />
       <Flex minH={'100vh'} align={'center'} justify={'center'} bg={'gray.100'}>
         <Box
-          w={'80%'}
+          w={'60%'}
           bg={'white'}
           rounded={'lg'}
           boxShadow={'lg'}
@@ -78,7 +78,7 @@ const SignIn = () => {
                 alt={'Sign Up Image'}
                 objectFit={'cover'}
                 src={logo}
-                h="100%" 
+                h="75%" 
               />
             </Flex>
             <Stack spacing={4} w={{ base: 'full', md: '50%' }}>

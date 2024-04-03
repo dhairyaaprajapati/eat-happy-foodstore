@@ -37,16 +37,16 @@ const Navbar = () => {
 
   return (
     <Box position="fixed" top={0} left={0} right={0} zIndex={999} px={0} py={0}>
-      <Flex alignItems="center" py={4} px={8} bg="orange.200">
+      <Flex alignItems="center" py={3} px={7} bg="orange.300">
         <Box>
           <img
             src={Logo}
             alt="Website Logo"
-            style={{ width: "100px", height: "auto", marginRight: "10px" }}
+            style={{ width: "90px", height: "auto", marginRight: "5px" }}
           />
         </Box>
         <Spacer />
-        <Box display={{ base: "none", md: "block" }} width="40%" bg={"white"}>
+        <Box display={{ base: "none", md: "block" }} width="35%" bg={"white"}>
           <Input placeholder="Search"  />
         </Box>
         <Spacer />
