@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    image: node:14
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    command: sh -c "npm install @babel/plugin-proposal-private-property-in-object && npm install && npm start"
