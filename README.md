@@ -1,7 +1,9 @@
 # eat-happy-foodstore
 ## Vs Code
 ```
-npm install 
+npm install
+```
+``` 
 npm start
 ```
 ## Docker Compose
