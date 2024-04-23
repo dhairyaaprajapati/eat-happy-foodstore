@@ -13,9 +13,8 @@ cd eat-happy-foodstore/
 ```
 docker-compose up
 ```
-```
-open chrome and search :- EC2: EC2-ID:3000
 
+open chrome and search :- EC2: EC2-ID:3000
 ```
 docker-compose down
 ```
