@@ -10,8 +10,14 @@ npm start
 ``` 
 git clone https://github.com/dhairyaaprajapati/eat-happy-foodstore.git
 ```
-cd eat-happy-foodstore/
 
+cd eat-happy-foodstore/
+```
+sudo apt install npm
+```
+```
+npm install @babel/plugin-proposal-private-property-in-object
+```
 ```
 docker-compose up
 ```
